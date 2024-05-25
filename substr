@@ -1,0 +1,12 @@
+#include<iostream>
+#include<string>
+//include<algorithm> 
+//Write a C++  that trims a string down to 10 characters
+
+using namespace std;
+int main(){
+    string a; 
+    getline(cin,a); //input lera hu user se and space ka dyan rkhra hu
+    cout<<a.substr(0,4); //substring
+    return 0;
+}
