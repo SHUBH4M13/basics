@@ -1,0 +1,16 @@
+#include<iostream>
+#include<string>
+#include<cctype>
+//Convert a string to all uppercase letters
+using namespace std;
+int main(){
+    int i;
+    string a;
+    string b = ""; //empty
+    getline(cin,a);
+    for( i = 0 ; i < a.length() ; i++){
+       b += tolower(a[i]);
+    }
+    cout<<b;
+    return 0;
+}
