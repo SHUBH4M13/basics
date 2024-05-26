@@ -1,0 +1,27 @@
+#include<iostream>
+#include<string>
+using namespace std;
+//Develop a Car class that contains 
+//attributes like make, model, year, 
+//and speed. Include methods like accelerate and brake.
+class car{
+    public: //access specifer
+    int make;
+    string model;
+    int year;
+    float speed;
+    void accelerate( int make , int year ){
+        int a = make + year;
+        cout<<a;
+    }
+};
+
+int main(){
+    car c1;
+    c1.model= "abc"; //input dalrre ho
+    c1.year = 2024;
+    c1.make = 100;
+    c1.accelerate( c1.make , c1.year );
+   // cout<<c1.model;
+    return 0;
+}
